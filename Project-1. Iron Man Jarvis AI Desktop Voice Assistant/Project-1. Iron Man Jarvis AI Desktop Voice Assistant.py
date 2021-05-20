@@ -99,7 +99,6 @@ if __name__ == "__main__":
             try:
                 speak("What should I say?")
                 content = takeCommand()
-                # to = "Princepadmani015@gmail.com"
                 to = "email"
                 sendEmail(to, content)
                 speak("Email has been sent!")
